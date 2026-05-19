@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsChiTieu" targetNamespace="http://tempuri.org/dsChiTieu.xsd" xmlns:mstns="http://tempuri.org/dsChiTieu.xsd" xmlns="http://tempuri.org/dsChiTieu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsChiTieu" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="dsChiTieu" msprop:Generator_DataSetName="dsChiTieu">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtChiTieu" msprop:Generator_RowEvHandlerName="dtChiTieuRowChangeEventHandler" msprop:Generator_RowDeletedName="dtChiTieuRowDeleted" msprop:Generator_RowDeletingName="dtChiTieuRowDeleting" msprop:Generator_RowEvArgName="dtChiTieuRowChangeEvent" msprop:Generator_TablePropName="dtChiTieu" msprop:Generator_RowChangedName="dtChiTieuRowChanged" msprop:Generator_RowChangingName="dtChiTieuRowChanging" msprop:Generator_TableClassName="dtChiTieuDataTable" msprop:Generator_RowClassName="dtChiTieuRow" msprop:Generator_TableVarName="tabledtChiTieu" msprop:Generator_UserTableName="dtChiTieu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenChiTieu" msprop:Generator_ColumnPropNameInRow="TenChiTieu" msprop:Generator_ColumnPropNameInTable="TenChiTieuColumn" msprop:Generator_ColumnVarNameInTable="columnTenChiTieu" msprop:Generator_UserColumnName="TenChiTieu" type="xs:string" minOccurs="0" />
+              <xs:element name="SoTien" msprop:Generator_ColumnPropNameInRow="SoTien" msprop:Generator_ColumnPropNameInTable="SoTienColumn" msprop:Generator_ColumnVarNameInTable="columnSoTien" msprop:Generator_UserColumnName="SoTien" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Ngay" msprop:Generator_ColumnPropNameInRow="Ngay" msprop:Generator_ColumnPropNameInTable="NgayColumn" msprop:Generator_ColumnVarNameInTable="columnNgay" msprop:Generator_UserColumnName="Ngay" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
